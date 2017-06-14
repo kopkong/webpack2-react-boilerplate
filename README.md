@@ -8,3 +8,5 @@ Webpack2-react的模板，没有使用react-hot-loader 和 webpack-dev-server �
 WebPack https://webpack.js.org/configuration/
 
 WebPackDevMiddleware https://github.com/webpack/webpack-dev-middleware
+
+BabelPlugins http://babeljs.io/docs/plugins/
