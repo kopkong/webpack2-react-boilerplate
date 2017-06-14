@@ -5,5 +5,6 @@ Webpack2-react的模板，没有使用react-hot-loader 和 webpack-dev-server �
 
 # 相关资源文档链接
 
--- WebPack https://webpack.js.org/configuration/
--- WebPackDevMiddleware https://github.com/webpack/webpack-dev-middleware
+WebPack https://webpack.js.org/configuration/
+
+WebPackDevMiddleware https://github.com/webpack/webpack-dev-middleware
