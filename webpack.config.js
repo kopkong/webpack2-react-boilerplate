@@ -33,12 +33,12 @@ let entry = [path.resolve(__dirname,'src/app.js')],
 if (nodeEnv === 'production') {
     plugins.push(
         new CleanPlugin(path.resolve(process.cwd(), 'build')),
-        // new webpack.optimize.UglifyJsPlugin({
-        //     compress: {
-        //         warnings: false,
-        //         drop_console: false,
-        //     }
-        // }),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false,
+                drop_console: false,
+            }
+        }),
         new webpack.LoaderOptionsPlugin({
             minimize: true
         })

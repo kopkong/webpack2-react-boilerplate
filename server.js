@@ -13,7 +13,6 @@ const path = require('path'),
     PORT = 4301;
 
 app.use(express.static(__dirname));
-console.log(__dirname);
 
 app.use(webpackDevMiddleware(compiler, {
     noInfo: false,
