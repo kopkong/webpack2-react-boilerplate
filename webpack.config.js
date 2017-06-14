@@ -24,7 +24,7 @@ let plugins = [
     new HTMLPlugin({
         template: path.resolve(__dirname, 'src/index.html.tpl'),
         filename: 'index.html'
-    }),
+    })
 ];
 
 let entry = [path.resolve(__dirname,'src/app.js')],
@@ -83,13 +83,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.(less|css)$/,
-                use: ExtractTextPlugin.extract({
-                    use: ["css-loader", "less-loader", "postcss-loader"]
-                })
-            },
-            {
-                test: /\.scss$/,
+                test: /\.s?css$/,
                 use : ExtractTextPlugin.extract({
                     use: ["css-loader", "sass-loader", "postcss-loader"]
                 })

@@ -2,6 +2,8 @@
  * Created by colin on 2017/6/13.
  */
 
+import 'assets/styles/normalize.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter, Route} from 'react-router-dom';
