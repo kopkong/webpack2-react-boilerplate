@@ -10,3 +10,5 @@ WebPack https://webpack.js.org/configuration/
 WebPackDevMiddleware https://github.com/webpack/webpack-dev-middleware
 
 BabelPlugins http://babeljs.io/docs/plugins/
+
+ExtractTextWebpackPlugin https://github.com/webpack-contrib/extract-text-webpack-plugin
