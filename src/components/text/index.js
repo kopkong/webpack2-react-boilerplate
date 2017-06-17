@@ -9,7 +9,7 @@ import React, { Component } from 'react';
 export default class TextComponent extends Component {
     render(){
         return (
-            <span className="red">默认文字</span>
+            <span className="red">{this.props.text || '默认文字'}</span>
         );
     }
 }
